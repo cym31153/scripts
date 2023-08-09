@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TELEGRAM_CLI_PATH="/path/to/telegram-cli"
+TELEGRAM_CLI_PATH="/root/program/tg"
 
 echo "请输入手机号码："
 read -r PHONE_NUMBER
@@ -20,7 +20,7 @@ fi
 "$TELEGRAM_CLI_PATH" -W -e "$CMD"
 
 while true; do
-  echo "我是傻逼" | "$TELEGRAM_CLI_PATH" -W -e "msg $PHONE_NUMBER"
+  echo "Keep Online" | "$TELEGRAM_CLI_PATH" -W -e "msg $PHONE_NUMBER"
 
   sleep 5
 done
