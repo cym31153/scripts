@@ -1,0 +1,1 @@
+cd ~/ && sudo apt-get install libc6:armhf && sudo apt install gcc-arm-linux-gnueabihf && git clone https://github.com/ptitSeb/box86 && cd box86 && mkdir build; cd build; cmake .. -DRPI4ARM64=1 -DCMAKE_BUILD_TYPE=RelWithDebInfo
